@@ -83,14 +83,25 @@ body {
 
 .project-text, .project-link {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
+
+    transition-property: color;
+        -webkit-transition-duration: 250ms;
+        transition-duration: 250ms;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-link {
     margin-left: 10px;
+}
+
+.project-link:hover,
+.project-link:focus {
+    color: #3A79D4;
 }
 
 /* work styles */
@@ -225,6 +236,17 @@ body {
     line-height: 24px;
     color: #FFFFFF;
     opacity: 50%;
+
+    transition-property: opacity;
+        -webkit-transition-duration: 250ms;
+        transition-duration: 250ms;
+        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    opacity: 100%;
 }
 
 .tech-skills-list {
