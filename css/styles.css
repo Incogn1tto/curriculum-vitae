@@ -163,9 +163,16 @@ body {
 
 /* education styles */
 
+.ed-list {
+    padding-left: 18px;
+}
 
 .university {
     margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.21;
     color: #FB6D3A;
 }
 
@@ -264,17 +271,17 @@ body {
 }
 
 .tech-skills-text {
+    display: block;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 24px;
     color: #FFFFFF;
 
-    transition-property: color, font-size;
-        -webkit-transition-duration: 250ms;
-        transition-duration: 250ms;
-        -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tech-skills-text:hover, 
